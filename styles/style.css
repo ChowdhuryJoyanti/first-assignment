@@ -1,0 +1,60 @@
+    body{
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        width: 100%;
+    }
+
+    .banner{
+        background-image: url(../images/banner/banner3.png);
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+        text-align: right;
+        padding-right: 200px;
+        
+     }  
+         .header{
+        float: right;
+        margin: 50px;
+
+     }  
+        .inner-header{
+            color:#FFFFFF; 
+            font-size: 30px;
+            font-weight: 800;
+            
+        }
+    .inner-description{
+        color: #FFFFFF;
+
+    }
+    .btn-primary{
+        color:   #005FAC;
+        padding: 21px 25px;
+        border-radius: 5px;
+        border: 0;
+        font-weight: 700;
+        
+    }
+    /* My previous section */
+
+            .fail{
+                font-weight:1200px;
+                font-size: 40px;
+            }
+        .failures{
+            float: left;
+           margin: 150px 100px 100px 50px ;
+           padding: 20px;
+        } 
+        .year{
+            margin-top: 350px;
+        }
+        .description-failure{
+            color:#444343;
+        }
+       /* my plans section */
+       .plan{
+        display: flex;
+       }
+        
