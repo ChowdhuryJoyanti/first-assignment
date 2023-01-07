@@ -1,14 +1,14 @@
     body{
-        margin: 0;
+       
         font-family: 'Work Sans', sans-serif;
-        width: 100%;
+     
     }
 
     .banner{
         background-image: url(../images/banner/banner3.png);
         background-repeat: no-repeat;
         height: 700px;
-        width: 100%;
+        width: 1310px;
         text-align: right;
         padding-right: 200px;
         
@@ -16,16 +16,21 @@
          .header{
         float: right;
         margin: 50px;
-
+       
      }  
         .inner-header{
             color:#FFFFFF; 
             font-size: 30px;
             font-weight: 800;
+            width: 100%;
+
+
             
         }
     .inner-description{
         color: #FFFFFF;
+        width: 100%;
+
 
     }
     .btn-primary{
@@ -34,6 +39,7 @@
         border-radius: 5px;
         border: 0;
         font-weight: 700;
+
         
     }
     /* My previous section */
@@ -41,20 +47,92 @@
             .fail{
                 font-weight:1200px;
                 font-size: 40px;
+      
             }
         .failures{
-            float: left;
-           margin: 150px 100px 100px 50px ;
-           padding: 20px;
+            float: left; 
+           margin: 100px 100px 100px 100px ; 
+           padding: 30px 10px 20px 20px;
+         
+           
         } 
-        .year{
-            margin-top: 350px;
-        }
+    .year{
+            margin-top: 250px;
+            margin-left: 100px;
+            padding-top: 80px;     
+        } 
         .description-failure{
             color:#444343;
+            width: 100%;
         }
        /* my plans section */
-       .plan{
-        display: flex;
-       }
+        .plan{
+        position: absolute;
+        margin: 1000px auto;
+       } 
+         .plan h2{ 
+          margin-left: 700px;
+
+        } 
+        .container{
+            display: flex;
+            position: relative;
+            margin-left: 350px;
+            margin-top: 70px;
+            padding: 10px;
+            /* align-items: center; */
+            gap: 105px;
+        }
+        /* positive mindset section */
+
+        .positve-mindset{
+            position: absolute;
+            background-image: url(../images/watch.png) ;
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 100%;
+            margin-top: 1400px;
+            padding: 80px 100px;
+             margin-left: 170px;  
+         
+        }
+         .positive{
+                text-align: left;
+
+         }
+         /* footer section */
+         .footer{
+            background-color: black;
+            height: 400px;
+            width: 100%;
+            color: #FFFFFF;
+            
+
+           
+ 
+         }
+         .footer-head{
+            position: relative;
+            margin-top: 1800px;
+            margin-left: 100px;
+            padding-top: 100px;
+
+         }
+         .footer-description{
+            padding-left: 100px;
+           
+         }
+            .social-media{
+                padding-left: 100px; 
+         }
+        .icons{
+               padding-left: 10px;
+         }
+         .subscription{
+           
+         }
+         .color-blue{
+           background-color: dodgerblue;
+           color: #FFFFFF;
+         }
         
