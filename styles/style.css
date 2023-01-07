@@ -1,5 +1,5 @@
     body{
-       
+       margin: 0;
         font-family: 'Work Sans', sans-serif;
      
     }
@@ -61,6 +61,10 @@
             margin-left: 100px;
             padding-top: 80px;     
         } 
+        .fa-sharp{
+            color:greenyellow;
+
+        }
         .description-failure{
             color:#444343;
             width: 100%;
@@ -87,7 +91,7 @@
 
         .positve-mindset{
             position: absolute;
-            background-image: url(../images/watch.png) ;
+            background-image: url(../images/watch.png);
             background-repeat: no-repeat;
             height: 500px;
             width: 100%;
@@ -102,10 +106,14 @@
          }
          /* footer section */
          .footer{
+            margin-top: 1772px;
+            background-color: bl;
             background-color: black;
             height: 400px;
             width: 100%;
             color: #FFFFFF;
+                margin-bottom: 100px;
+            /* position: relative; */
             
 
            
@@ -128,11 +136,18 @@
         .icons{
                padding-left: 10px;
          }
-         .subscription{
+       .subscription{
+            margin-left: 1000px;
+            
+          
            
          }
          .color-blue{
            background-color: dodgerblue;
            color: #FFFFFF;
+         }
+         .contact{
+            background-color: blue;
+            color: #FFFFFF;position: absolute;
          }
         
